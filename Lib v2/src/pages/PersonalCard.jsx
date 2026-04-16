@@ -15,7 +15,7 @@ const PersonalCard = ({product}) => {
 
   useEffect(() => {
       if (accessToken.accessToken) {
-          axios.get(`https://libapi.intuit-journal.online/api/v1/books/${id}/add_view/`,
+          axios.get(`https://api.lib-intuit.com/api/v1/books/${id}/add_view/`,
               {
                   headers: {
                       Authorization: `Bearer ${accessToken.accessToken}`,
@@ -25,7 +25,7 @@ const PersonalCard = ({product}) => {
       }
 
 
-      axios.get(`https://libapi.intuit-journal.online/api/v1/books/${id}/`)
+      axios.get(`https://api.lib-intuit.com/api/v1/books/${id}/`)
         .then((res) => setBook(res.data))
         .catch((err) => console.log(err))
   }, [id, setBook]); // Заменяем categoryName на productName

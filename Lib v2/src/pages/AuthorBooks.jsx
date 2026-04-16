@@ -14,7 +14,7 @@ const AuthorBooks = ({product}) => {
 
   useEffect(() => {
     axios
-      .get(`https://libapi.intuit-journal.online/api/v1/accounts/info/${authorId}/`)
+      .get(`https://api.lib-intuit.com/api/v1/accounts/info/${authorId}/`)
       .then((response) => {
         const filteredBooks = response.data.user_books
         setBooks(filteredBooks);

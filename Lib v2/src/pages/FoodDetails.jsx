@@ -95,7 +95,7 @@ const FoodDetails = ({ product, productId }) => {
   const accessToken = loadDataFromLocalStorage()
   const handleDownload = () => {
     if (accessToken.accessToken) {
-      axios.get(`https://libapi.intuit-journal.online/api/v1/books/${product.id}/add_down/`,
+      axios.get(`https://api.lib-intuit.com/api/v1/books/${product.id}/add_down/`,
           {
             headers: {
               Authorization: `Bearer ${accessToken.accessToken}`,

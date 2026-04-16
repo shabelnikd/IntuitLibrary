@@ -30,7 +30,7 @@ export function loadDataFromLocalStorage() {
 }
 
 
-export const apiUrl = ''
+export const apiUrl = 'https://api.lib-intuit.com'
 
 export const baseApi = `${apiUrl}/api/v1`
 

@@ -18,7 +18,7 @@ const queryClient = new QueryClient({
 });
 function App() {
     const { data: productsSql, isLoading, error } = useQuery("products", () => {
-        return axios.get("https://libapi.intuit-journal.online/api/v1/books/").then((response) => response.data);
+        return axios.get("https://api.lib-intuit.com/api/v1/books/").then((response) => response.data);
     });
 
     if (isLoading) return (

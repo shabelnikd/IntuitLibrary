@@ -10,7 +10,7 @@ const StaticPuple = () => {
 
   useEffect(() => {
     axios
-      .get(`https://libapi.intuit-journal.online/api/v1/accounts/list/`)
+      .get(`https://api.lib-intuit.com/api/v1/accounts/list/`)
       .then((response) => {
         const filteredBooks = response.data;
         setStats(filteredBooks);
