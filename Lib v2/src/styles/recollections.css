@@ -1,0 +1,58 @@
+.custom-dots {
+  background: gray;
+  margin-top: 10px;
+}
+
+.slick-active > .custom-dots {
+  background: #212e45 !important;
+}
+
+.menu__desc {
+  color: #292283;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  bottom: var(--swiper-pagination-bottom, -4px);
+}
+
+.swiper-button-next {
+  color: #b0004c !important;
+}
+.swiper-button-prev {
+  color: #b0004c !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #b0004c !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next {
+    display: none !important; 
+  }
+  .swiper-button-prev {
+    display: none !important; 
+  }
+  .menu__desc {
+    font-size: 32px;
+  }
+}

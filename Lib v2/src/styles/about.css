@@ -1,0 +1,115 @@
+.about-block__head {
+  background: #f7f5f5;
+  margin: 50px 0px;
+  text-align: center;
+  padding: 30px 0px;
+}
+.about-block__head-title, .about-block__certificate__head {
+  color: #b0004c;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.about-block__head-desc {
+  color: #212e45;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+.about-block__statistics {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-block__statistics-box {
+  width: 160px;
+  padding: 20px 0px 20px 20px;
+  background: #f8f8f8;
+}
+.about-block__statistics__box__desc {
+  color: #212e45;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about-block__text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.about-block__text__desc {
+  color: #b0004c;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 223.529% */
+  letter-spacing: 1.2px;
+  margin: 0px 20px;
+}
+
+.about-block__certificate {
+    text-align: center;
+}
+.about-block__certificate__image {
+  margin: 0px 30px;
+}
+
+.about-block__certificate__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    padding: 30px 0px;
+}
+
+
+.certificate-gallery {
+  perspective: 1000px;
+  transition: transform 1.0s;
+  height: 500px;
+}
+
+.certificate-gallery.flipped {
+  transform: rotateX(360deg);
+}
+
+@media screen and (max-width: 768px) {
+  .about-block__certificate__img {
+    flex-direction: column;
+  }
+  .about-block__head-desc {
+    font-size: 12px;
+    text-align: center;
+  }
+  .about-block__head {
+    padding: 10px;
+    margin: 0px 0px 30px 0px;
+  }
+  .about-block__head-title {
+    font-size: 24px;
+  }
+  .about-block__statistics {
+    flex-direction: column;
+  }
+  .about-block__statistics-box {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #b0004c;
+    padding: 10px 0px;
+  }
+  .about-block__text {
+    flex-direction: column;
+
+  }
+  .about-block__text__desc {
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+}

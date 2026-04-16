@@ -1,0 +1,63 @@
+.main-card {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-card__block__one {
+  background-image: url(../assets/images/convert.png);
+  width: 100%;
+  position: relative;
+  height: 500px;
+  text-align: center;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.main-card__block__two {
+  background-image: url(../assets/images/bodysuit.png);
+  width: 100%;
+  position: relative;
+  height: 500px;
+  text-align: center;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.block__one-text,
+.block__two-text {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.block__one-link-style,
+.block__two-link-style {
+  color: #b0004c;
+  font-size: 21px;
+  font-weight: 300;
+  background: rgba(219, 218, 217, 0.75);
+  padding: 5px 40px;
+  margin: 0px 10px;
+}
+
+.block__one-link-text,
+.block__two-link-text {
+  color: #b0004c;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-card {
+    flex-direction: column;
+  }
+  .main-card__block__two {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

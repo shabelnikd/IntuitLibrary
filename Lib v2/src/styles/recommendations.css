@@ -1,0 +1,8 @@
+.custom-dots {
+  background: gray;
+  margin-top: 10px;
+}
+
+.slick-active > .custom-dots {
+  background: #212e45 !important;
+}

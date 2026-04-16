@@ -1,0 +1,27 @@
+.social-icons {
+  position: fixed;
+  bottom: 0;
+  right: 55px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99999;
+}
+.social-icons a {
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid red;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+@media only screen and (max-width: 768px) {
+  .social-icons {
+    right: 15px;
+  }
+}

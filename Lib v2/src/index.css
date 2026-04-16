@@ -1,0 +1,28 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+body {
+  background: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+p {
+  margin-bottom: 0;
+}
+

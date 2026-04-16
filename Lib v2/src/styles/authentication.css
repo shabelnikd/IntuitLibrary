@@ -1,0 +1,174 @@
+.signup {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.signup-form {
+  width: 500px;
+  padding: 45px;
+  text-align: center;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media screen and (max-wid) {
+}
+.signup-head {
+  color: #292283;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.signup-input {
+  width: 100%;
+  margin: 10px 0px;
+  border: 1px solid #292283;
+  outline: none;
+  padding: 15px 10px;
+}
+
+.signup-label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.singup-links {
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: #212e45;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0px 0px 10px 0px;
+}
+.singup-links:hover {
+  color: #292283;
+}
+
+.singup-btn {
+  width: 100%;
+  background: #292283;
+  color: white;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border: 1px solid #292283;
+}
+.singup-btn:hover {
+  background: white;
+  color: #292283;
+  border: 1px solid #292283;
+}
+
+.singup-text {
+}
+
+.input-block {
+  position: relative;
+  width: 100%;
+}
+.input-block button {
+  position: absolute;
+  right: 15px;
+  top: 27px;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Дополнительные стили */
+.modal p {
+  margin-bottom: 10px;
+}
+
+.modal button {
+  cursor: pointer;
+}
+
+.signup-input.invalid {
+  border: 1px solid red; /* Измените стиль на подходящий вам */
+  color: red;
+}
+
+.error-text {
+  color: red;
+  margin-top: 5px;
+}
+
+.modal2 {
+  position: relative;
+  position: fixed;
+  overflow: hidden;
+  background: white;
+  padding: 40px;
+}
+
+.modal-close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.singup-btn {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-form {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+  .signup {
+    justify-content: center;
+    padding-top: 20px;
+    display: block;
+  }
+  .signup-input {
+    padding: 10px 10px;
+    margin: 10px 0px;
+  }
+  .input-block button {
+    top: 20px;
+  }
+}

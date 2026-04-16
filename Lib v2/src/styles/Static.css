@@ -1,0 +1,68 @@
+.canva {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.segment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  width: 100px;
+}
+
+.value {
+  margin-left: 10px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.segments {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-static {
+ width: 800px;
+ margin: 0 auto;
+}
+
+.apexcharts-legend {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 30px !important;
+}
+
+.chart-head {
+    text-align: center;
+}
+
+.MuiTabs-flexContainer {
+    display: flex;
+    justify-content: space-around !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .chart-static {
+        width: 100%;
+    }
+    .apexcharts-legend {
+        flex-direction: row;
+        justify-content: left !important;
+    }
+    .display-none {
+      display: none;
+    }
+}

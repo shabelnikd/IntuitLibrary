@@ -1,0 +1,46 @@
+.catalog-mobile {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 9998;
+  height: 100vh;
+  top: 0;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  justify-content: space-between;
+  background: #ecebeb;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  width: 50%;
+  border: 2px solid transparent !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #292283 !important;
+  border-bottom: 2px solid #292283 !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-item {
+  color: #212e45;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 45px;
+  border-bottom: 1px solid #212e45;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .catalog-mobile {
+        display: none;
+    }
+}

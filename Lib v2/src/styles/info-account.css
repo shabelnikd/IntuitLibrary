@@ -1,0 +1,120 @@
+.info-h1 {
+  font-weight: var(--font-weight__heavy);
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  color: #292283;
+  padding: 20px;
+  border-bottom: 2px solid #292283;
+}
+
+.info-block__head {
+  font-weight: var(--font-weight__heavy);
+  font-size: 1.375rem;
+  line-height: 2rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  color: #292283;
+  padding: 25px 0px 0px 10px;
+}
+
+.info-block__input {
+  width: 100%;
+  margin: 10px 0px;
+
+  outline: none;
+  padding: 14px 30px 14px 15px;
+}
+
+.info-block-name__box {
+  width: 33.33%;
+  margin: 20px 0px;
+}
+
+.info-block__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-block__name_t {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.info-block__name-label {
+  display: block;
+  font-size: 18px;
+  color: #212e45;
+  font-weight: 600;
+}
+.info-block__contact {
+  display: flex;
+}
+
+.info-block__contact__box {
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.info-block__contact__box:nth-child(1) {
+  margin-right: 20px;
+}
+.info-block__contact__box:nth-child(2) {
+  margin-left: 20px;
+}
+
+.info-block__btn {
+  width: 100%;
+  text-align: right;
+  padding: 30px 0px;
+}
+
+.info-block__button {
+  width: 300px;
+  background: #292283;
+  color: white;
+  padding: 15px 0px;
+  margin: 10px 0px;
+  border: 1px solid #292283;
+}
+.info-block__button:hover {
+  background: white;
+  color: #292283;
+  border: 1px solid #292283;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    margin-bottom: 62px;
+  }
+  .info-block-name__box {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .info-block__name {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .css-4jnixx-MuiStack-root {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .info-block__contact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .info-block__contact__box {
+    width: 100%;
+    margin: 10px 0px !important;
+  }
+  .info-block__button {
+    width: 100%;
+  }
+  .info-h1 {
+    padding: 20px 0px !important;
+  }
+  .info-block__head {
+    padding: 25px 0px 10px 0px;
+  }
+}

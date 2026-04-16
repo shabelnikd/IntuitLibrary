@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Medium.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  /* position: fixed; */
+  z-index: 9997;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+}
+.menu-item:hover {
+  color: #292283;
+}
+
+.schedule__link {
+  margin-right: 20px;
+}
+.contact__title,
+.schedule__link {
+  color: #000;
+  font-family: FuturaPT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  color: #292283;
+  font-family: FuturaPT;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.3s;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.menu a:hover {
+  color: #292283;
+  background: #f3f3f3;
+}
+
+.active__menu {
+  color: #292283;
+  background: #f3f3f3;
+}
+
+.header__head-link {
+  padding: 10px 21px;
+  border: 2px solid #c6c6c6;
+  background: transparent;
+  outline: none;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.header__head-link img {
+  margin-right: 10px;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+  font-size: 1.3rem;
+  color: #212245;
+  cursor: poFuturaPT;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+  .nav__right {
+    display: none !important;
+  }
+  .header {
+    background: white !important;
+  }
+  .header-search {
+    display: none;
+  }
+  .nav__wrapper {
+    justify-content: center !important;
+  }
+  .burger-menu {
+    position: absolute;
+    left: 20px;
+  }
+  .header {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+

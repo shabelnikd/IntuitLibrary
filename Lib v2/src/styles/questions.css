@@ -1,0 +1,150 @@
+.questions {
+}
+
+.questions-card {
+  display: flex;
+  padding: 30px 50px;
+  width: 750px;
+  text-align: left;
+  background: linear-gradient(27deg, #a9c9e1, #e3eaf4)
+}
+
+.questions-card__tex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.questions-genre {
+  width: 80px;
+  color: #929292;
+  border-bottom: 1px solid #929292;
+}
+
+.questions-btn {
+  padding: 15px 45px;
+  background: #292283;
+  border-radius: 25px;
+  color: white;
+  width: 160px;
+  text-align: center;
+}
+
+.questions-card-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.questions-card-two__block {
+  display: flex;
+}
+
+.questions-card-two__img-one {
+  background-image: url(../assets/images/bg-questions.png);
+  height: 159px;
+  margin: 0px 30px;
+  position: relative;
+}
+.questions-card-two__img-two {
+  background-image: url(../assets/images/aitmatov.png);
+  width: 270px;
+  height: 253px;
+  position: relative;
+  text-align: center;
+  margin: 40px 30px 0px 30px;
+} 
+
+.questions-card-two__img-text {
+  position: absolute;
+  bottom: 22px;
+  color: white; 
+  font-size: 14px;
+  left: 35px;
+}
+
+.questions-block {
+  display: flex;
+}
+
+.questions-head {
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 750;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+.questions-desc {
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.questions-block__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions-input {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #b0004c;
+  background: #f2f2f2;
+  margin: 0px 25px;
+  outline: none;
+}
+
+
+@media screen and (max-width: 760px) {
+  .questions-head {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .questions-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .questions-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .questions-card-two__img-two {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+    background-size: cover;
+  }
+
+  .questions-card-two__img-one {
+    margin: 10px 0px;
+    background-position: center;
+  }
+  .questions-card-two__block {
+    flex-direction: column;
+  }
+  .questions-block {
+    flex-direction: column;
+  }
+  .questions-block__form {
+    flex-direction: column;
+  }
+  .questions {
+    padding: 20px 0px 40px 0px;
+    margin-bottom: 72px;
+  }
+  .questions-input {
+    margin: 5px 0px;
+    width: 255px;
+  }
+  .questions-btn {
+    margin-top: 30px;
+  }
+}

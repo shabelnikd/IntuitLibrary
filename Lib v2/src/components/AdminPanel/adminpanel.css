@@ -1,0 +1,50 @@
+.admin-panel__form {
+    border: 1px solid #292283;
+    padding: 5px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.admin-panel-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.admin-select {
+  border-radius: 10px !important;
+}
+
+.admin-panel__input {
+  border: 1px solid gray;
+  padding: 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.admin-panel__label {
+  color: #292283;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+
+.admin-panel__span {
+  color: red;
+}
+
+.admin-panel__btn {
+  width: 100%;
+  background: #292283;
+  color: white;
+  padding: 20px 0px;
+  margin: 10px auto;
+  border: 1px solid #292283;
+  border-radius: 15px;
+}
+
+.admin-panel__head, .admin-head {
+    color: #292283;
+    text-align: center;
+}
